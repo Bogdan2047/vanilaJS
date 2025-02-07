@@ -1,0 +1,794 @@
+html,
+body {
+  margin: 0 0;
+  padding: 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000000;
+}
+
+.header .headerBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+}
+
+.header .headerBlock .headerNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 15vw;
+}
+
+header .headerBlock .headerNav .logIn {
+  width: 9vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .headerBlock .headerNav .search {
+  width: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .headerBlock .headerNav .backet {
+  width: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .textStyle {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.bodies {
+  width: 100vw;
+}
+
+.bodies .bodiesBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.bodies .blockOne {
+  padding-top: 3%;
+  width: 60vw;
+  text-align: center;
+}
+
+.bodies .textStyle {
+  font-size: 2vw;
+  font-weight: 600;
+  text-align: center;
+}
+
+.bodies .blockTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 45vw;
+  padding-top: 3%;
+}
+
+.bodies .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bodies .textImgStyle {
+  width: 5vw;
+  height: auto;
+}
+
+.bodies .titleCol {
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bodies .textTwoStyle {
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+.bodies .imgOneStyle {
+  width: 20vw;
+  height: auto;
+}
+
+.bodies .blockTree {
+  width: 100vw;
+  padding-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.bodies .blockTree .textTwoStyle {
+  width: 43vw;
+  font-size: 1.3vw;
+  font-weight: 400;
+}
+
+.bodies .blockFour {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
+.bodies .subBlockOne {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.bodies .subBlockOne .textTreeStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50vw;
+  text-align: start;
+  font-size: 2vw;
+}
+
+.bodies .subBlockTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0;
+}
+
+.bodies .subBlockTwo .textFourStyle {
+  text-align: center;
+  padding: 1% 0;
+  width: 50vw;
+  background-color: #d2232e;
+  color: white;
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.bodies .subBlockTree {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bodies .subBlockTree .textFiveStyle {
+  width: 50vw;
+  font-size: 1.1vw;
+  font-weight: 400;
+}
+
+.bodies .blockQuizz {
+  padding: 3% 0;
+}
+
+.bodies .bodiesBlock .blockPosts {
+  padding-top: 4%;
+}
+
+.quizz {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.quizz .quizzBlock {
+  width: 55vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.quizz .quizzBlock .blockOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.quizz .quizzBlock .blockOne .subBlockOne {
+  position: relative;
+}
+
+.quizz .quizzBlock .blockOne .titleBlock {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quizz .quizzBlock .blockOne .subBlockOne .textStyle {
+  padding-top: 1%;
+  width: 30%;
+  font-size: 1.3vw;
+  font-weight: 400;
+}
+
+.quizz .quizzBlock .blockOne .subBlockOne .imgLineStyle {
+  width: 38vw;
+  height: auto;
+}
+
+.quizz .quizzBlock .blockOne .subBlockTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.quizz .quizzBlock .blockOne .subBlockTwo .textTwoStyle {
+  font-size: 1.8vw;
+  font-weight: 600;
+}
+
+.quizz .quizzBlock .blockOne .subBlockTree {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.quizz .quizzBlock .blockOne .subBlockTree .yes {
+  width: 45%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2232e;
+  color: white;
+}
+
+.quizz .quizzBlock .blockOne .subBlockTree .no {
+  width: 45%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  border: 1px solid black;
+}
+
+.quizz .quizzBlock .blockOne .subBlockTwo .textTreeStyle {
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+
+.quizz .quizzBlock .blockOne .subBlockTwo .blockCount {
+  display: flex;
+  flex-direction: row;
+}
+
+.quizz .quizzBlock .blockOne .subBlockTwo .blockCount .count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.quizz .quizzBlock .blockOne .subBlockTwo .blockQuest {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  height: 100px;
+}
+
+.quizz .quizzBlock .blockTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.quizz .quizzBlock .blockTwo .imgDoctorStyle {
+  width: 10vw;
+  height: auto;
+}
+
+.quizz .blockCompleted .blockMail .inputStyle {
+  width: 15vw;
+  height: 30px;
+  border-radius: 1.3vw;
+  box-shadow: 0px 1px 12px grey;
+  text-align: center;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quizz .blockCompleted .blockMail .btnSend {
+  border: none;
+  outline: none;
+  width: 80px;
+  height: 40px;
+  background-color: #30f000;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 600;
+  border-radius: 1.3vw;
+}
+
+.blockCompleted {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blockCompleted .blockCograt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.blockCompleted .blockCograt .textStyle {
+  color: #572f83;
+  font-size: 2vw;
+  font-weight: 600;
+  padding-bottom: 3%;
+}
+
+.blockCompleted .blockCograt .textTwoStyle {
+  font-size: 1.4vw;
+  font-weight: 400;
+  padding-bottom: 3%;
+}
+
+.blockCompleted .blockInfo {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.blockCompleted .blockInfo .textTreeStyle {
+  font-size: 1.4vw;
+  font-weight: 600;
+  color: #572f83;
+  padding-top: 5%;
+}
+
+.blockMail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  padding-top: 5%;
+}
+
+.bodies .redLine {
+  width: 60vw;
+  height: 2px;
+  background-color: #d2232e;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.posts .post {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.posts .post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.posts .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.posts .author {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.post .blockAuthor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.posts .recommended {
+  color: red;
+  font-size: 13px;
+}
+
+.posts .time {
+  font-size: 12px;
+  color: gray;
+  padding-right: 5px;
+}
+
+.posts .post-content {
+  margin: 10px 0;
+}
+
+.posts .post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.posts .button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.posts .comments {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.posts .comment {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.posts .comment-body {
+  background: #f1f1f1;
+  padding: 8px;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.posts .comment-body p {
+  margin: 5px 0;
+}
+
+.posts .comment .time {
+  font-size: 12px;
+  color: gray;
+}
+
+.post .blockRecomend {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.post .blockReact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 1%;
+}
+
+.post .blockLikes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.post .blockAction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 1% 0;
+}
+
+.post .like-btn {
+  border: none;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  color: #129bf7;
+}
+
+.post .comment-btn {
+  border: none;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  color: grey;
+}
+
+.post .share-btn {
+  border: none;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  color: grey;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 100vw;
+  background-color: #3f3939;
+  color: #fff;
+  padding: 3% 0;
+  font-size: 1.3vw;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-logo img {
+  max-width: 20vw;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-column a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.footer-text {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-privacy {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-privacy a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-button {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-button button {
+  background-color: #202020;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 636px) {
+  .header .headerBlock .headerNav {
+    width: 0;
+  }
+
+  .header .headerBlock .headerNav .logIn {
+    display: none;
+  }
+
+  .header .headerBlock .headerNav .backet {
+    display: none;
+  }
+
+  .bodies .blockOne {
+    width: 95vw;
+  }
+
+  .bodies .textStyle {
+    font-size: 5vw;
+  }
+
+  .bodies .blockTwo {
+    flex-direction: column;
+  }
+
+  .bodies .titleCol {
+    height: auto;
+  }
+
+  .bodies .imgOneStyle {
+    width: 80vw;
+  }
+
+  .bodies .textImgStyle {
+    width: 40vw;
+  }
+
+  .bodies .textTwoStyle {
+    font-size: 5vw;
+    padding: 10% 0;
+  }
+
+  .bodies .blockTree .textTwoStyle {
+    width: 90vw;
+  }
+
+  .bodies .blockTree .textTwoStyle {
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .quizz .quizzBlock {
+    width: 90vw;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .quizz .quizzBlock .blockTwo {
+    width: 100%;
+  }
+
+  .quizz .quizzBlock .blockTwo .imgDoctorStyle {
+    width: 50vw;
+  }
+
+  .quizz .quizzBlock .blockOne {
+    width: 100%;
+  }
+
+  .quizz .quizzBlock .blockOne .subBlockOne .imgLineStyle {
+    width: 90vw;
+  }
+
+  .quizz .quizzBlock .blockOne .subBlockOne .textStyle {
+    width: 50%;
+    font-size: 3vw;
+    text-align: start;
+  }
+
+  .quizz .quizzBlock .blockOne .subBlockTwo {
+    width: 100%;
+    padding-top: 5%;
+  }
+
+  .quizz .quizzBlock .blockOne .subBlockTwo .textTwoStyle {
+    font-size: 4vw;
+  }
+
+  .quizz .blockCompleted .imgCompStyle {
+    width: 80vw;
+  }
+
+  .bodies .subBlockOne .textTreeStyle {
+    width: 90%;
+    font-size: 4vw;
+    font-weight: 400;
+  }
+
+  .bodies .subBlockTwo .textFourStyle {
+    width: 90%;
+    font-size: 5vw;
+  }
+
+  .bodies .subBlockTree .textFiveStyle {
+    width: 90%;
+    font-size: 3.7vw;
+    font-weight: 300;
+    padding-top: 5%;
+  }
+
+  .bodies .redLine {
+    width: 90vw;
+  }
+
+  .footer {
+    align-items: center;
+    font-size: 3vw;
+  }
+
+  .footer-container {
+    padding: 0 5%;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  .footer-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .blockCompleted .blockCograt .textStyle {
+    font-size: 6vw;
+  }
+
+  .blockCompleted .blockCograt .textTwoStyle {
+    font-size: 5vw;
+  }
+
+  .blockCompleted .blockInfo {
+    width: 90vw;
+  }
+
+  .blockCompleted .blockInfo .textTreeStyle {
+    font-size: 4vw;
+  }
+
+  .blockMail {
+    width: 80%;
+  }
+
+  .quizz .blockCompleted .blockMail .inputStyle {
+    width: 50vw;
+    border-radius: 2.5vw;
+  }
+
+  .quizz .blockCompleted .blockMail .btnSend {
+    border-radius: 2.5vw;
+    font-size: 3vw;
+    width: 24vw;
+  }
+}
